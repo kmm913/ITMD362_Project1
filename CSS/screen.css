@@ -236,6 +236,7 @@ input:focus{
 }
 
 #submit{
+  background-color: #33CF23; 
   color: white; 
   font-weight: bold; 
 }
