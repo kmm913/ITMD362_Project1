@@ -199,7 +199,7 @@ html {
 }
 
 body{
-  background-color: #D4CDD5; 
+  background-color: #43ABD2; 
   font-family: 'Raleway', 'Rockwell', sans-serif;
   padding-left: 0px;
   padding-right: 0px;
@@ -242,7 +242,7 @@ input:focus{
 @media screen and (min-width: 960px){
   
   body{
-    background-color: #D4CDD5; 
+    background-color: #43ABD2; 
     font-family: 'Spectral SC', 'Garamond', serif;
     margin-left: auto; 
     margin-right: auto; 
