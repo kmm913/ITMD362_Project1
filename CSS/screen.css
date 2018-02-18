@@ -243,14 +243,6 @@ input:focus{
   float: left; 
 }
 
-#reset{
-  background-color: #FF0000; 
-  color: white; 
-  font-weight: bold;
-  float: left; 
-  margin-left: 1.182em; 
-}
-
 @media screen and (min-width: 960px){
   
   body{
