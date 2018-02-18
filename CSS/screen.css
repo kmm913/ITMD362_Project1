@@ -257,7 +257,7 @@ input:focus{
     font-family: 'Raleway', 'Rockwell', sans-serif;
     margin-left: auto; 
     margin-right: auto; 
-    width: 100%;
+    width: 75%;
   }
   
   h1, p, li{
@@ -270,7 +270,17 @@ input:focus{
     margin-left: 26.004px;
   }
   
+  #input_first_name{
+    float: left;  
+  }
   
+  #input_last_name{
+    float: left; 
+    margin-left: 1.182em; 
 }
+
+  #input_email{
+    clear: left; 
+  }
 
 
