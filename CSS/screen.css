@@ -239,6 +239,15 @@ input:focus{
   background-color: #33CF23; 
   color: white; 
   font-weight: bold; 
+  float: left; 
+  margin-right: 1.182em; 
+}
+
+#reset{
+  background-color: #FF0000; 
+  color: white; 
+  font-weight: bold;
+  float: left; 
 }
 
 @media screen and (min-width: 960px){
