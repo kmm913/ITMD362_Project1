@@ -4,6 +4,7 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
+//event listener to handle submit confirmation
 document.getElementById('submit').addEventListener('submit', redirect);
 
 function redirect(event) {

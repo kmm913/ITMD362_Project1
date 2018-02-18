@@ -184,7 +184,7 @@ img, audio, video {
   max-width: 100%;
 }
 
-/* ===== BASE STYLES ===== */
+/* ===== MOBILE-FIRST BASE STYLE ===== */
 
 /*
   Major Sixth Modular Scale:
@@ -243,6 +243,10 @@ input:focus{
   float: left; 
 }
 
+/* ==== STYLE FOR TABLETS ==== */
+
+
+/* ==== STYLE FOR LAPTOPS AND DESKTOPS ==== */
 @media screen and (min-width: 960px){
   
   body{
