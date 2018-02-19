@@ -4,10 +4,14 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
-//event listener to handle submit confirmation
-document.getElementById('submit').addEventListener('submit', redirect);
-
-function redirect(event) {
-  alert("Thank you! Your form has been submitted.");  
-  return true;
+function validate(){
+  var check = document.forms["volunteerForm"]["first_name"].value;
+  if(check == "") {
+    alert("Please enter your first name."); 
+    return false;
+  }
+  else{
+    alert("Thank you! Your form has been submitted.");  
+    return true;
+  }
 }
