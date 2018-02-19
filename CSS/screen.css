@@ -229,6 +229,7 @@ label {
 input{
   background-color: #99D7EE;
   border: none; 
+  font-size: .825em;
 }
 
 input:focus{
@@ -256,8 +257,8 @@ input:focus{
     background-color: #43ABD2; 
     font-family: 'Raleway', 'Rockwell', sans-serif;
     margin-left: auto; 
-    margin-right: auto; 
-    width: 75%;
+    margin-right: auto;
+    width: 50%;
   }
   
   h1, p, li{
@@ -282,5 +283,4 @@ input:focus{
   #input_email{
     clear: left; 
   }
-
 
