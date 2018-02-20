@@ -278,18 +278,3 @@ input:focus{
   #input_submit{
     clear: left; 
   }
-  
-  /*
-  #input_first_name{
-    float: left;  
-  }
-  
-  #input_last_name{
-    float: left; 
-    margin-left: 1.182em; 
-}
-
-  #input_email{
-    clear: left; 
-  }
- */
