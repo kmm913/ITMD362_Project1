@@ -9,7 +9,7 @@ jQuery(function($) {
 document.getElementById("submit").addEventListener("click", confirmSubmission);
 
 function confirmSubmission(event){
-  for(int i = 0; i < document.getElementsByTagName("input").length; i++){
+  for(i = 0; i < document.getElementsByTagName("input").length; i++){
     if(document.getElementsByTagName("input").item(i).value === "" ||
         (document.getElementsByTagName("input").item(i).type === "checkbox" && document.getElementsByTagName("input").item(i).checked===false)){
           return false;
