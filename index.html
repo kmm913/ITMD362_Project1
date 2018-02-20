@@ -41,7 +41,7 @@
           oninput="setCustomValidity('')" />
       </li>
       <li id="input_age_verification">
-        <input type="checkbox" id="age_verification" name="Age Verification" value="18" required oninvalid="this.setCustomValidity('please verify your age')"
+        <input type="checkbox" id="age_verification" name="Age Verification" value="18" required onchange="this.setCustomValidity('please verify your age')"
           oninput="setCustomValidity('')" />
         <label for="age_verification">I am 18 years of age or older</label>
       </li>
