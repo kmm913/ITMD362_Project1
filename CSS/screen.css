@@ -254,7 +254,7 @@ input:focus{
     font-family: 'Raleway', 'Rockwell', sans-serif;
     margin-left: auto; 
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
   
   h1, p, li{
