@@ -249,12 +249,28 @@ input:focus{
 /* ==== STYLE FOR LAPTOPS AND DESKTOPS ==== */
 @media screen and (min-width: 960px){
   
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+  
   body{
     background-color: #43ABD2; 
     font-family: 'Raleway', 'Rockwell', sans-serif;
     margin-left: auto; 
     margin-right: auto;
-    width: 100%;
+    width: 50%;
+    height: 100%; 
   }
   
   h1, p, li{
@@ -278,3 +294,4 @@ input:focus{
   #input_submit{
     clear: left; 
   }
+}
