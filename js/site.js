@@ -4,9 +4,15 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
-//add event listener to submit button
-document.getElementById("submit").addEventListener("click", validate); 
 
+//add event listener to submit button
+document.getElementById("submit").addEventListener("click", confirmSubmission); 
+
+function confirmSubmission(event){
+  alert("Thank you! Your form has been submitted."); 
+}
+
+/*
 //function for event listener
 function validate(event){
   for(i = 0; i < document.getElementsByTagName('input').length; i++){
@@ -19,4 +25,4 @@ function validate(event){
   }
   alert("Thank you! Your form has been submitted.");
   return true; 
-}
+} */
