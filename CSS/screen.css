@@ -268,6 +268,9 @@ input:focus{
 
   html{
     background-color: white; 
+    height: 100vh;
+    padding: 0; 
+    margin: 0; 
   }
   
   body{
@@ -275,7 +278,9 @@ input:focus{
     font-family: 'Raleway', 'Rockwell', sans-serif;
     margin-left: auto; 
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+    min-height: 100vh; 
+    padding-top: 1.182em; 
   }
   
   h1, p, li{
@@ -288,7 +293,6 @@ input:focus{
   
   h1{
     font-size: 2.292em; 
-    margin-top: 1.182em;
     margin-left: 26.004px;
   }
   
