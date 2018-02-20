@@ -10,6 +10,7 @@ function validate(event){
   for(i = 0; i < document.getElementsByTagName('input').length; i++){
     if(document.getElementsByTagName('input').item(i).value == ""){
       alert("Please enter your " + document.getElementsByTagName('input').item(i).name);
+      event.preventDefault();
       return false;
     }
   }
