@@ -12,7 +12,6 @@ function confirmSubmission(event){
   for(i = 0; i < document.getElementsByTagName('input').length; i++){
     if(document.getElementsByTagName('input').item(i).value == "" ||
         (document.getElementsByTagName('input').item(i).type == "checkbox" && document.getElementsByTagName('input').item(i).checked==false)){
-          event.preventDefault();
           return false; 
         }   
   }
