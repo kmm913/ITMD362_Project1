@@ -244,7 +244,71 @@ input:focus{
 }
 
 /* ==== STYLE FOR TABLETS ==== */
+@media screen and (min-width: 768px){
+  
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+  
+.clearfix { display: inline-block; }
 
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+  html{
+    background-color: black; 
+    height: 100vh;
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  body{
+    background-color: #43ABD2; 
+    font-family: 'Raleway', 'Rockwell', sans-serif;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 70%;
+    min-height: 100vh; 
+    padding-top: 1.182em; 
+  }
+  
+  h1, p, li{
+    margin-left: 1.182em;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  h1{
+    font-size: 2.292em; 
+    margin-left: 26.004px;
+  }
+  
+  #input_email{
+    clear: left; 
+  }
+  
+  #input_zip{
+    clear: left; 
+  }
+  
+  #input_age_verification{
+    clear: left; 
+  }
+  
+  #input_submit{
+    clear: left; 
+  }
+}
 
 /* ==== STYLE FOR LAPTOPS AND DESKTOPS ==== */
 @media screen and (min-width: 960px){
@@ -294,6 +358,14 @@ input:focus{
   h1{
     font-size: 2.292em; 
     margin-left: 26.004px;
+  }
+  
+  #input_email{
+    clear: left; 
+  }
+  
+  #input_zip{
+    clear: left; 
   }
   
   #input_age_verification{
