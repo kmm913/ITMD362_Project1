@@ -246,140 +246,140 @@ input:focus{
 /* ==== STYLE FOR TABLETS ==== */
 @media screen and (min-width: 768px){
   
-/* slightly enhanced, universal clearfix hack */
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+  /* slightly enhanced, universal clearfix hack */
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+    
+  .clearfix { display: inline-block; }
+
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+
+  html{
+    background-color: black; 
+    height: 100vh;
+    padding: 0; 
+    margin: 0; 
   }
-  
-.clearfix { display: inline-block; }
+    
+  body{
+    background-color: #43ABD2; 
+    font-family: 'Raleway', 'Rockwell', sans-serif;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 90%;
+    min-height: 100vh; 
+    padding-top: 1.182em; 
+  }
 
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
+  p, li{
+    margin-left: 1.182em;
+  }
 
-html{
-  background-color: black; 
-  height: 100vh;
-  padding: 0; 
-  margin: 0; 
-}
-  
-body{
-  background-color: #43ABD2; 
-  font-family: 'Raleway', 'Rockwell', sans-serif;
-  margin-left: auto; 
-  margin-right: auto;
-  width: 90%;
-  min-height: 100vh; 
-  padding-top: 1.182em; 
-}
+  li{
+    float: left;
+  }
 
-p, li{
-  margin-left: 1.182em;
-}
+  h1{
+    font-size: 2.292em; 
+    margin-left: 26.004px;
+    margin-bottom: 58.008px;
+    min-height: 100%;
+  }
 
-li{
-  float: left;
-}
+  #input_email{
+    clear: left; 
+  }
 
-h1{
-  font-size: 2.292em; 
-  margin-left: 26.004px;
-  margin-bottom: 58.008px;
-  min-height: 100%;
-}
+  #input_zip{
+    clear: left; 
+  }
 
-#input_email{
-  clear: left; 
-}
+  #input_age_verification{
+    clear: left; 
+  }
 
-#input_zip{
-  clear: left; 
-}
-
-#input_age_verification{
-  clear: left; 
-}
-
-#input_submit{
-  clear: left; 
-}
+  #input_submit{
+    clear: left; 
+  }
 
 }
 
 /* ==== STYLE FOR LAPTOPS AND DESKTOPS ==== */
 @media screen and (min-width: 960px){
 
-/* slightly enhanced, universal clearfix hack */
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
+  /* slightly enhanced, universal clearfix hack */
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
 
-.clearfix { display: inline-block; }
+  .clearfix { display: inline-block; }
 
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
 
-html{
-  background-color: black; 
-  height: 100vh;
-  padding: 0; 
-  margin: 0; 
-}
+  html{
+    background-color: black; 
+    height: 100vh;
+    padding: 0; 
+    margin: 0; 
+  }
 
-body{
-  background-color: #43ABD2; 
-  font-family: 'Raleway', 'Rockwell', sans-serif;
-  margin-left: auto; 
-  margin-right: auto;
-  width: 75%;
-  min-height: 100vh; 
-  padding-top: 1.182em; 
-}
+  body{
+    background-color: #43ABD2; 
+    font-family: 'Raleway', 'Rockwell', sans-serif;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 75%;
+    min-height: 100vh; 
+    padding-top: 1.182em; 
+  }
 
-p, li{
-  margin-left: 1.182em;
-}
+  p, li{
+    margin-left: 1.182em;
+  }
 
-li{
-  float: left;
-}
+  li{
+    float: left;
+  }
 
-h1{
-  font-size: 3.821em; 
-  margin-left: 26.004px;
-  margin-bottom: 58.008px;
-  margin-top: 26.004px;
-  min-height: 100%;
-}
+  h1{
+    font-size: 3.821em; 
+    margin-left: 26.004px;
+    margin-bottom: 58.008px;
+    margin-top: 26.004px;
+    min-height: 100%;
+  }
 
-#input_email{
-  clear: left; 
-}
+  #input_email{
+    clear: left; 
+  }
 
-#input_zip{
-  clear: left; 
-}
+  #input_zip{
+    clear: left; 
+  }
 
-#input_age_verification{
-  clear: left; 
-}
+  #input_age_verification{
+    clear: left; 
+  }
 
-#input_submit{
-  clear: left; 
-}
+  #input_submit{
+    clear: left; 
+  }
 
 }
