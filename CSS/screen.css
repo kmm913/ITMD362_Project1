@@ -261,12 +261,25 @@ input:focus{
     margin-left: 1.182em;
   }
   
+  li{
+    float: left;
+  }
+  
   h1{
     font-size: 2.292em; 
     margin-top: 1.182em;
     margin-left: 26.004px;
   }
   
+  #input_age_verification{
+    clear: left; 
+  }
+  
+  #input_submit{
+    clear: left; 
+  }
+  
+  /*
   #input_first_name{
     float: left;  
   }
@@ -279,4 +292,4 @@ input:focus{
   #input_email{
     clear: left; 
   }
-
+ */
