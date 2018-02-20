@@ -280,7 +280,7 @@ body{
   padding-top: 1.182em; 
 }
 
-h1, p, li{
+p, li{
   margin-left: 1.182em;
 }
 
@@ -291,6 +291,8 @@ li{
 h1{
   font-size: 2.292em; 
   margin-left: 26.004px;
+  margin-bottom: 58.008px;
+  min-height: 100%;
 }
 
 #input_email{
@@ -348,7 +350,7 @@ body{
   padding-top: 1.182em; 
 }
 
-h1, p, li{
+p, li{
   margin-left: 1.182em;
 }
 
@@ -357,8 +359,11 @@ li{
 }
 
 h1{
-  font-size: 2.292em; 
+  font-size: 3.821em; 
   margin-left: 26.004px;
+  margin-bottom: 58.008px;
+  margin-top: 26.004px;
+  min-height: 100%;
 }
 
 #input_email{
