@@ -32,13 +32,13 @@
       </li>
       <li id="input_phone">
         <label for="phone">Phone Number</label>
-        <input type="tel" name="Phone Number" id="phone" required oninvalid="this.setCustomValidity('please enter phone number')"
-          oninput="setCustomValidity('')" />
+        <input type="tel" name="Phone Number" id="phone" oninvalid="this.setCustomValidity('please enter phone number')"
+          oninput="setCustomValidity('')" required />
       </li>
       <li id="input_zip">
         <label for="zip_code">Zip Code</label>
-        <input type="tel" name="Zip Code" id="zip_code" required oninvalid="this.setCustomValidity('please enter zip code')"
-          oninput="setCustomValidity('')" />
+        <input type="tel" name="Zip Code" id="zip_code" oninvalid="this.setCustomValidity('please enter zip code')"
+          oninput="setCustomValidity('')" required />
       </li>
       <li id="input_age_verification">
         <input type="checkbox" id="age_verification" name="Age Verification" value="18" required oninvalid="this.setCustomValidity('please verify your age')"
@@ -51,7 +51,7 @@
     </ol>
   </form>
 </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js" async></script>
 </body>
 </html>
