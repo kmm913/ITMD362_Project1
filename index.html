@@ -22,13 +22,13 @@
       </li>
       <li id="input_last_name">
         <label for="last_name" id="lname_label">Last Name</label>
-        <input type="text" name="Last Name" id="last_name" required oninvalid="this.setCustomValidity('please enter last name')"
-          oninput="setCustomValidity('')" />
+        <input type="text" name="Last Name" id="last_name" oninvalid="this.setCustomValidity('please enter last name')"
+          oninput="setCustomValidity('')" required />
       </li>
       <li id="input_email">
         <label for="email">Email</label>
-        <input type="email" name="Email Address" id="email" pattern="^.+@.+$" required oninvalid="this.setCustomValidity('please enter email address')"
-          oninput="setCustomValidity('')" />
+        <input type="email" name="Email Address" id="email" pattern="^.+@.+$"  oninvalid="this.setCustomValidity('please enter email address')"
+          oninput="setCustomValidity('')" required />
       </li>
       <li id="input_phone">
         <label for="phone">Phone Number</label>
@@ -41,8 +41,8 @@
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_age_verification">
-        <input type="checkbox" id="age_verification" name="Age Verification" value="18" required oninvalid="this.setCustomValidity('please verify your age')"
-          oninput="setCustomValidity('')" />
+        <input type="checkbox" id="age_verification" name="Age Verification" value="18" oninvalid="this.setCustomValidity('please verify your age')"
+          oninput="setCustomValidity('')" required />
         <label for="age_verification">I am 18 years of age or older</label>
       </li>
       <li id="input_submit">
