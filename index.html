@@ -32,12 +32,12 @@
       </li>
       <li id="input_phone">
         <label for="phone">Phone Number</label>
-        <input type="tel" name="Phone Number" id="phone" oninvalid="this.setCustomValidity('please enter phone number')"
+        <input type="tel" name="Phone Number" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" oninvalid="this.setCustomValidity('please enter phone number')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_zip">
         <label for="zip_code">Zip Code</label>
-        <input type="tel" name="Zip Code" id="zip_code" pattern="\d{3}[\-]\d{3}[\-]\d{4}" oninvalid="this.setCustomValidity('please enter zip code')"
+        <input type="tel" name="Zip Code" id="zip_code" oninvalid="this.setCustomValidity('please enter zip code')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_age_verification">
