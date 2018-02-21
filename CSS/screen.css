@@ -240,7 +240,9 @@ input:focus{
   background-color: #33CF23; 
   color: white; 
   font-weight: bold; 
+  font-size: 1.182em;
   float: left; 
+  border-radius: 25px; 
 }
 
 /* ==== STYLE FOR TABLETS ==== */
