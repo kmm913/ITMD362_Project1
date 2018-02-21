@@ -17,27 +17,27 @@
     <ol>
       <li id="input_first_name">
         <label for="first_name" id="fname_label">First Name</label>
-        <input type="text" name="First Name" id="first_name" required oninvalid="this.setCustomValidity('please enter first name')"
+        <input type="text" name="First Name" id="first_name" required oninvalid="this.setCustomValidity('please enter your first name')"
           oninput="setCustomValidity('')" />
       </li>
       <li id="input_last_name">
         <label for="last_name" id="lname_label">Last Name</label>
-        <input type="text" name="Last Name" id="last_name" oninvalid="this.setCustomValidity('please enter last name')"
+        <input type="text" name="Last Name" id="last_name" oninvalid="this.setCustomValidity('please enter your last name')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_email">
         <label for="email">Email</label>
-        <input type="email" name="Email Address" id="email" pattern="^.+@.+$" placeholder="youraddress@host.com" oninvalid="this.setCustomValidity('please enter email address')"
+        <input type="email" name="Email Address" id="email" pattern="^.+@.+$" placeholder="youraddress@host.com" oninvalid="this.setCustomValidity('please enter your email address')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_phone">
         <label for="phone">Phone Number</label>
-        <input type="tel" name="Phone Number" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="555-555-5555" oninvalid="this.setCustomValidity('please enter phone number')"
+        <input type="tel" name="Phone Number" id="phone" placeholder="555-555-5555" oninvalid="this.setCustomValidity('please enter your phone number')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_zip">
         <label for="zip_code">Zip Code</label>
-        <input type="tel" name="Zip Code" id="zip_code" oninvalid="this.setCustomValidity('please enter zip code')"
+        <input type="tel" name="Zip Code" id="zip_code" oninvalid="this.setCustomValidity('please enter your zip code')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_age_verification">
