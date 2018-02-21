@@ -37,7 +37,7 @@
       </li>
       <li id="input_zip">
         <label for="zip_code">Zip Code</label>
-        <input type="tel" name="Zip Code" id="zip_code" oninvalid="this.setCustomValidity('please enter zip code')"
+        <input type="tel" name="Zip Code" id="zip_code" pattern="\d{3}[\-]\d{3}[\-]\d{4}" oninvalid="this.setCustomValidity('please enter zip code')"
           oninput="setCustomValidity('')" required />
       </li>
       <li id="input_age_verification">
