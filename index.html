@@ -5,7 +5,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="CSS/screen.css" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" /> 
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js" async></script>  
 </head>
 <body>
 <main id="content" class="clearfix">
@@ -13,7 +15,7 @@
   <p>
     Please enter your information to find volunteer opportunities near you. 
   </p>
-  <form method="get" action="#null" name="volunteerForm">
+  <form method="get" action="#null" name="volunteerForm" autocomplete="on">
     <ol>
       <li id="input_first_name">
         <label for="first_name" id="fname_label">First Name</label>
@@ -51,7 +53,5 @@
     </ol>
   </form>
 </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js" async></script>
 </body>
 </html>
